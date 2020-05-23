@@ -57,6 +57,7 @@ GEM
     mini_portile2 (2.2.0)
     minitest (5.10.1)
     multipart-post (2.0.0)
+    nio4r (2.5.2)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     parallel (1.11.1)
@@ -69,7 +70,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (2.0.5)
-    puma (3.8.2)
+    puma (4.3.5)
+      nio4r (~> 2.0)
     rack (1.6.5)
     rack-jekyll (0.5.0)
       jekyll (>= 1.3)
@@ -112,7 +114,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-redirect-from
   pry
-  puma
+  puma (>= 3.12.6)
   rack-jekyll
   rack-ssl-enforcer
   rake
@@ -120,4 +122,4 @@ DEPENDENCIES
   rubocop
 
 BUNDLED WITH
-   1.15.4
+   1.17.3
